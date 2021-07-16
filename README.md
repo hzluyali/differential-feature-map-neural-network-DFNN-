@@ -1,7 +1,9 @@
 # differential-feature-map-neural-network-DFNN-For-Brain-Tumor-Recognition
-Tensorflow version of DFNN
+Tensorflow version of DFNN，准确率超过99%
 
-Tensorflow 1.13+Numpy+Skimage+Matplotlib
+## 所需库：Tensorflow 1.13+Numpy+Skimage+Matplotlib
+
+## 文件功能
 
 jiaozheng.py #对单幅图像进行图像校正,输入dicom格式文件，输出校正后的图像，保存为jpg格式
 
@@ -15,7 +17,7 @@ train.py #训练模型
 
 predict.py #利用已训练数据预测新图片类别并可视化
 
-模型搭建步骤：
+## 模型搭建步骤：
 
 Step 1 (可选): 执行 python batch_jiaozheng.py实现自动图像校正，使得脑MRI影像的对称轴与铅垂线平移，总体思路及效果如下所示：
 
@@ -23,7 +25,7 @@ Step 1 (可选): 执行 python batch_jiaozheng.py实现自动图像校正，使�
 
 注意：不进行图像校正也可获得较好的结果！
 
-Step 2: 执行python data_load.py，将图像数据转化为.npy格式，便于存取，训练自己数据集时需修改data_load.py的文件路径
+Step 2: 执行python data_load.py，将图像数据转化为.npy格式，便于存取，训练自己数据集时需修改data_load.py中33-35行的文件路径
 
 Step 3: 执行python train.py训练DFNN模型
 
