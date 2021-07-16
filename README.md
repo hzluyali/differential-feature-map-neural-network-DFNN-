@@ -1,4 +1,4 @@
-# differential-feature-map-neural-network-DFNN-
+# differential-feature-map-neural-network-DFNN-For-Brain-Tumor-Recognition
 Tensorflow version of DFNN
 
 Tensorflow 1.13+Numpy+Skimage+Matplotlib
