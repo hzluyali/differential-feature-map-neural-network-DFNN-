@@ -19,7 +19,7 @@ predict.py #利用已训练数据预测新图片类别并可视化
 
 Step 1 (可选): 执行 python batch_jiaozheng.py实现自动图像校正，使得脑MRI影像的对称轴与铅垂线平移，总体思路及效果如下所示：
 
-![Image text](https://github.com/hzluyali/differential-feature-map-neural-network-DFNN-/blob/main/1626449101(1).jpg)
+![Image text](https://github.com/hzluyali/differential-feature-map-neural-network-DFNN-/blob/main/img/1626449101(1).jpg)
 
 注意：不进行图像校正也可获得较好的结果！
 
