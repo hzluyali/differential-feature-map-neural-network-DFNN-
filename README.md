@@ -13,6 +13,8 @@ model.py #存放DFNN模型的结构及参数
 
 train.py #训练模型
 
+predict.py #利用已训练数据预测新图片类别并可视化
+
 模型搭建步骤：
 
 Step 1 (可选): 执行 python batch_jiaozheng.py实现自动图像校正，使得脑MRI影像的对称轴与铅垂线平移，总体思路及效果如下所示：
@@ -25,6 +27,9 @@ Step 2: 执行python data_load.py，将图像数据转化为.npy格式，便于�
 
 Step 3: 执行python train.py训练DFNN模型
 
+Step 4: 执行python predict.py 预测新图片，需修改第25行和第26行的模型文件路径，此外可以将图像进行可视化
+
+![Image text](https://github.com/hzluyali/differential-feature-map-neural-network-DFNN-/blob/main/1626449101(1).jpg)
 
 
 
