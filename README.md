@@ -30,7 +30,10 @@ Step 2: 执行python data_load.py，将图像数据转化为.npy格式，便于�
 Step 3: 执行python train.py训练DFNN模型
 
 ## 模型搭建步骤 (直接调用已训练好的模型)：
-将模型文件放置于ckpt2文件夹中
+将模型文件放置于ckpt2文件夹中，模型文件从百度云中下载
+
+链接：https://pan.baidu.com/s/1Q_naql2xwqJNgwn-Rc0RIA 
+提取码：h686 
 
 执行python predict.py 预测新图片，需修改第25行和第26行的模型文件路径，此外可以将图像进行可视化
 
