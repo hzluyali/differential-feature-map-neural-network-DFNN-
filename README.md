@@ -1,7 +1,7 @@
 # differential-feature-map-neural-network-DFNN-For-Brain-Tumor-Recognition
 Tensorflow version of DFNN，准确率超过99%
 
-## 所需库：Tensorflow 1.13+Numpy+Skimage+Matplotlib+OpenCV
+## 所需库：Tensorflow 1.13+Numpy+Skimage+Matplotlib+OpenCV+pydicom
 
 ## 文件功能
 
